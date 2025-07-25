@@ -1,0 +1,501 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fastrack</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+      <style>
+        .navbar-nav p {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  cursor: pointer; /* Ensures hand cursor appears */
+}
+
+.navbar-nav p:hover {
+  color: black;
+}
+
+.navbar-nav p:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+  width: 100%;
+}
+
+      </style>
+      <nav class="navbar navbar-expand-lg bg-white navbar-light" style="height: 12%;">
+            <div class="container-fluid" style="color: black;">
+                <img src="fastracklogo.png" alt="Logo" width="200" height="75" class="navbar-logo" style="margin-left: 50px;">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav text-center gap-4">
+                        <p>WATCHES</p>
+                        <p>SMART WATCHES</p>
+                        <p>VYB BY FASTRACK</p>
+                        <p>SALE</p>
+                        <p>GIFTING</p>
+                        <p>ACCESSORIES</p>
+                        <p>MORE</p>
+                    </div>
+                </div>
+            </div>
+           
+            
+            
+            <div class="d-flex align-items-end ms-1 gap-4" style="font-size: 20px;padding-right: 50px;">
+                <i class="bi bi-search"></i>
+                <i class="bi bi-person"></i>
+                <i class="bi bi-heart"></i>
+                <i class="bi bi-bag"></i>
+                <i class="bi bi-box2"></i>
+            </div>
+        </nav>
+
+        <div style="height: 85%;">
+            <div class="d-flex align-items-center" style="height:7%;background-color: rgb(236, 236, 233)">
+                <i class="bi bi-geo-alt" style="font-size:20px;margin-left:7%;"></i>
+                <span style="font-size: 13px;margin-left:1%;">Select a loaction to check product availability</span>
+                <a href="#" style="font-size: 13px;margin-left:1%;color: black;">Add Location</a>
+            </div>
+            <div id="fastrackCarousel" class="carousel slide" data-bs-ride="carousel" style="height:50%;">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#fastrackCarousel" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#fastrackCarousel" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#fastrackCarousel" data-bs-slide-to="2"></button>
+                  <button type="button" data-bs-target="#fastrackCarousel" data-bs-slide-to="3"></button>
+                  <button type="button" data-bs-target="#fastrackCarousel" data-bs-slide-to="4"></button>
+                  <button type="button" data-bs-target="#fastrackCarousel" data-bs-slide-to="5"></button>
+                  <button type="button" data-bs-target="#fastrackCarousel" data-bs-slide-to="6"></button>
+                  <button type="button" data-bs-target="#fastrackCarousel" data-bs-slide-to="7"></button>
+                  <button type="button" data-bs-target="#fastrackCarousel" data-bs-slide-to="8"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="sale1.webp" class="d-block w-100" alt="Slide 1" >
+                  </div>
+                  <div class="carousel-item">
+                    <img src="sale2.jpeg" class="d-block w-100" alt="Slide 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="sale3.webp" class="d-block w-100" alt="Slide 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="sale4.jpg" class="d-block w-100" alt="Slide 4">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="sale5.jpg" class="d-block w-100" alt="Slide 5">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="sale6.webp" class="d-block w-100" alt="Slide 6">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="sale7.jpg" class="d-block w-100" alt="Slide 5">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="sale8.jpg" class="d-block w-100" alt="Slide 6">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#fastrackCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#fastrackCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+            <style>
+                .carousel-inner img {
+                    height: 100%;
+                    object-fit: cover;
+                }
+            </style>
+            <p class="h5 ms-5 mt-5 text-align-end style-vertical">FASTRACK CATEGORIES</p>
+            <div class="ms-5">
+  <div class="position-relative d-inline-block me-5 ms-5 mt-4">
+    <img src="analog.webp" class="img-fluid rounded-3 MT-1" style="height: 375px;" alt="Casual">
+    <div class="position-absolute bottom-0 start-0 w-100 text-center text-BLACK  bg-opacity-50 p-2">
+      <P class="mb-0">ANALOG WATCHES</P>
+    </div>
+  </div>
+  <div class="position-relative d-inline-block me-3 ms-3 mt-4">
+    <img src="smart.webp" class="img-fluid rounded-3 MT-1" style="height: 375px;" alt="Casual">
+    <div class="position-absolute bottom-0 start-0 w-100 text-center text-WHITE  bg-opacity-50 p-2">
+      <P class="mb-0">SMART WATCHES</P>
+    </div>
+  </div>
+  <div class="position-relative d-inline-block me-5 ms-5 mt-4">
+    <img src="bags.jpg" class="img-fluid rounded-3 MT-1" style="height: 375px;" alt="Casual">
+    <div class="position-absolute bottom-0 start-0 w-100 text-center text-BLACK  bg-opacity-50 p-2">
+      <P class="mb-0">BAGS</P>
+    </div>
+  </div>
+  <div class="position-relative d-inline-block me-3 ms-3 mt-4">
+    <img src="perfumes.webp" class="img-fluid rounded-3 MT-1" style="height: 375px;" alt="Casual">
+    <div class="position-absolute bottom-0 start-0 w-100 text-center text-white  bg-opacity-50 p-2">
+      <P class="mb-0">PERFUMES</P>
+    </div>
+  </div>
+            
+        
+  <div id="carouselExampleAutoplaying" class="carousel slide height-100" data-bs-ride="carousel">
+    <div class="carousel-inner h-25 ">
+        <div class="carousel-item active">
+          <img src="ban1.webp" class="d-block w-100 h-75 mt-5 mb-5" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="ban2.webp" class="d-block w-100 h-75 mt-5 mb-5" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="ban3.webp" class="d-block w-100 h-75 mt-5 mb-5" alt="...">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+            <p class="h5 ms-5 mt-3">RECENTLY VIEWED</p>
+            <div class="row row-cols-1 row-cols-md-4 g-4  px-4 mx-4 py-3 mt-2">
+  <div class="col"><a class="nav-link" href="#">
+    <div class="card h-100">
+      <img src="viewed.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <a class="nav-link" href="#">
+        <p class="card-text"><b>Fastrack Oceanyx -<br>Ceramic Quartz...</b><br>Guys Watch<br><b>Rs 8,995</b></p>
+        </a>
+      </div>
+    </div></a>
+  </div>
+  <div class="col">
+    <div class="card h-100"><a class="nav-link" href="#">
+      <img src="viewed2.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <a class="nav-link" href="#">
+        <p class="card-text"><b>Fastrack Oceanyx -<br>Ceramic Quartz...</b><br>Guys Watch<br><b>Rs 8,995</b></p>
+        </a>
+        </a>
+      </div>
+    </div></a>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="viewed3.webp" class="card-img-top" alt="...">
+      <div class="card-body">       
+        <p class="card-text"><b>Fastrack Radiant FX2<br>Luxury Metal...</b><br>Unisex Watch<br><b>Rs 4,999 </b><del>Rs 9,995</del> <span class="text-danger">50%off</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-10">
+      <img src="viewed4.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"><b>Fastrack Cerame Quartz<br>Multifunction Black Dial...</b><br>Guys Watch<br><b>Rs 8,095 </b><del>Rs 8,995</del> <span class="text-danger">10%off</span></p>
+     </div>
+    </div>
+  </div>
+  <p class=" h5 w-100">TRENDING</p>
+  <div class="col"><a class="nav-link" href="#">
+    <div class="card h-100">
+      <img src="tre1.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <a class="nav-link" href="#">
+        <p class="card-text"><b>Fastrack Thor Quartz Multifunction<br>Red Dial Metal Strap Watc...</b><br>Guys Watches<br><b>Rs 3895</b> <del>Rs 5195</del> <span class="text-danger">25%off</span></p>
+        </a>
+      </div>
+    </div></a>
+  </div>
+  <div class="col"><a class="nav-link" href="#">
+    <div class="card h-100">
+      <img src="tre2.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <a class="nav-link" href="#">
+        <p class="card-text"><b>Fastrack Vyb Maverick Quartz Analog<br>Brown Dial Metal Strap W...</b><br>Guys Watches<br><b>Rs 1895</b> <del>Rs 2705</del> <span class="text-danger">30%off</span></p>
+        </a>
+      </div>
+    </div></a>
+  </div>
+  <div class="col"><a class="nav-link" href="#">
+    <div class="card h-100">
+      <img src="tre3.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <a class="nav-link" href="#">
+        <p class="card-text"><b>Fastrack Quartz Analog Black Dial<br>Black Stainless Steel Stra...</b><br>Guys Watches<br><b>Rs 2555 <del>Rs 3195</del> <span class="text-danger">20%off</span></p>
+        </a>
+      </div>
+    </div></a>
+  </div>
+  <div class="col"><a class="nav-link" href="#">
+    <div class="card h-100">
+      <img src="tre4.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <a class="nav-link" href="#">
+        <p class="card-text"><b>Fastrack Automatics Green Dial Silver<br>Metal Strap Automatic...</b> <br>Guys Watches<br> <b>Rs 11995</b></p>
+        </a>
+      </div>
+    </div></a>
+  </div>
+  </div> 
+ <p class="h3 ms-5 mt-5">SHOP YOUR VIBE</p>
+            <div class="mx-5">
+  <div class="position-relative d-inline-block me-5 ms-5 mt-4">
+    <img src="casual.webp" class="img-fluid rounded-3" style="width: 350px;" alt="Casual">
+    <div class="position-absolute bottom-0 start-0 w-100 text-center text-white bg-dark bg-opacity-50 p-2">
+      <h5 class="mb-0">Elevated Casual</h5>
+    </div>
+  </div>
+
+  <div class="position-relative d-inline-block me-5 ms-5 mt-4">
+    <img src="party.webp" class="img-fluid rounded-3" style="width: 350px;" alt="Party">
+    <div class="position-absolute bottom-0 start-0 w-100 text-center text-white bg-dark bg-opacity-50 p-2">
+      <h5 class="mb-0">Party</h5>
+    </div>
+  </div>
+
+  <div class="position-relative d-inline-block me-5 ms-5 mt-4">
+    <img src="street.webp" class="img-fluid rounded-3" style="width: 350px;" alt="Street">
+    <div class="position-absolute bottom-0 start-0 w-100 text-center text-white bg-dark bg-opacity-50 p-2">
+      <h5 class="mb-0">Street</h5>
+    </div>
+  </div>
+</div>
+
+        <p class="h5 ms-5 mt-5">BEST SELLERS</p>
+        <div class="row row-cols-1 row-cols-md-4 g-4  px-4 mx-4 py-3 mt-2"> 
+  <div class="col"><a class="nav-link" href="#">
+    <div class="card h-100">
+      <img src="2w1.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <a class="nav-link" href="#">
+        <p class="card-text"><b>Fastrack Tees Urbanique Quartz<br>Analog Black Dial Silicone St...</b> <br>Guys Watches<br> <b>Rs 995</b></p>
+        </a>
+      </div>
+    </div></a>
+  </div>
+  <div class="col"><a class="nav-link" href="#">
+    <div class="card h-100">
+      <img src="2w2.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <a class="nav-link" href="#">
+        <p class="card-text"><b>Fastrack Stunners Black Dial Metal<br>Strap Watch For Guys...</b><br>Guys Watches<br><b>Rs 1195</b> <del>Rs 1495</del> <span class="text-danger">20%off</span></p>
+        </a>
+      </div>
+    </div></a>
+  </div>
+  <div class="col"><a class="nav-link" href="#">
+    <div class="card h-100">
+      <img src="2w4.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <a class="nav-link" href="#">
+        <p class="card-text"><b>Fastrack Vyb Bliss Quartz Analog<br>Sand Dial Metal Strap Watches...</b><br>Guys Watches<br><b>Rs 1250</b> <del>Rs 1785</del> <span class="text-danger">30%off</span></p>
+        </a>
+      </div>
+    </div></a>
+  </div>
+  <div class="col"><a class="nav-link" href="#">
+    <div class="card h-100">
+      <img src="2w5.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <a class="nav-link" href="#">
+        <p class="card-text"><b>Fastrack Vyb Maverick Quartz Analog<br>Green Dial Metal Strap W...</b><br>Guys Watches<br><b>Rs 1695</b> <del>Rs 2420</del> <span class="text-danger">30%off</span></p>
+        </a>
+      </div>
+    </div></a>
+  </div>
+<div id="carouselExampleAutoplaying" class="carousel slide w-100 " data-bs-ride="carousel">
+  <div class="carousel-inner ">
+    <div class="carousel-item active">
+      <img src="2ban1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="2ban2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="2ban3.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="2ban4.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="2ban5.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+ <p class="h4 ms-3 mt-3 w-100">FASTRACK #KRONOS</p>     
+  <style>
+    body, html {
+      margin-top: 5;
+      padding: 0;
+      height: 100%;
+    }
+    .full-height {
+      height: 100vh;
+    }
+    .left-card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+    }
+    .left-card .card {
+      border: none;
+      width: 600;
+      height:auto;
+    }
+    .left-card img {
+      width:900;
+      height:auto;
+    }
+    .right-image {
+      width: 600;
+      height: auto;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row g-0 full-height">
+      <!-- Left Side: Image Card -->
+    <div class="col-md-6 left-card">
+      <div class="card float-start">
+        <img src="crush.webp" class="card-img-top mt-5 mb-5 w-100" alt="Watch Image">
+        <div class="card-body">
+          <b class="card-text">CRUSH</b>
+          <p class="h5">
+            Uniquely styled with creases and pinches,these sleek watches are all about making a bold and edgy statement
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Right Side: Full Image -->
+    <div class="col-md-6 h-75 ">
+      <img src="collection.jpg" class="right-image mb-5 mt-5" alt="Featured Collection">
+    </div>
+  </div>
+</div>
+<p class="h4 ms-3 mt-3 w-100">FOLLOW US</p>
+  
+  <style>
+    .image-hover-wrapper {
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      height: 100%;
+    }
+
+    .image-hover-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: filter 0.3s ease;
+    }
+
+    .image-hover-wrapper:hover img {
+      filter: brightness(1.2);
+    }
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background-color: rgba(255,255,255,0);
+      pointer-events: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .image-hover-wrapper:hover .overlay {
+      background-color: rgba(255,255,255,0.6);
+    }
+
+    .icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 2rem;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .image-hover-wrapper:hover .icon {
+      opacity: 1;
+    }
+
+    .grid-container { height: 600px; }
+    .row.flex-fill { margin-bottom: 0.5rem; }
+    .row.flex-fill:last-child { margin-top: 0.5rem; }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5 w-100">
+  <div class="row grid-container">
+    <!-- Large Left Image -->
+    <div class="col-md-6">
+      <div class="image-hover-wrapper">
+        <img src="follow1.webp" alt="Large Image">
+        <div class="overlay"><i class="bi bi-instagram icon"></i></div>
+      </div>
+    </div>
+
+    <!-- Right Side 2x2 Grid -->
+    <div class="col-md-6 d-flex flex-column ps-md-3">
+      <!-- Top Row -->
+      <div class="row flex-fill">
+        <div class="col-6">
+          <div class="image-hover-wrapper">
+            <img src="follow2.webp" alt="Top Left">
+            <div class="overlay"><i class="bi bi-instagram icon"></i></div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="image-hover-wrapper">
+            <img src="follow3.webp" alt="Top Right">
+            <div class="overlay"><i class="bi bi-instagram icon"></i></div>
+          </div>
+        </div>
+      </div>
+      <!-- Bottom Row -->
+      <div class="row flex-fill">
+        <div class="col-6">
+          <div class="image-hover-wrapper">
+            <img src="follow4.webp" alt="Bottom Left">
+            <div class="overlay"><i class="bi bi-instagram icon"></i></div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="image-hover-wrapper">
+            <img src="follow5.webp" alt="Bottom Right">
+            <div class="overlay"><i class="bi bi-instagram icon"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</html>
