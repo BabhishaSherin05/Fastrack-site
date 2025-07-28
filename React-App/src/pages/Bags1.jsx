@@ -4,7 +4,7 @@ import Acc4 from '../assets/pictures/Practice/Acc4.webp'
 import Acc5 from '../assets/pictures/Practice/Acc5.webp'
 import Acc10 from '../assets/pictures/Practice/Acc10.webp'
 import Navbar from '../components/Navbar'
-import Location from '../components/location'
+import Location from '../components/Location'
 import {Link} from "react-router-dom"
 
 const Bags1 = () => {

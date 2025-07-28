@@ -4,7 +4,7 @@ import { useCart } from './CartContext';
 import { useNavigate } from 'react-router-dom';
 
 import Navbar from '../components/Navbar'
-import Location from '../components/location'
+import Location from '../components/Location'
 
 const Open1 = () => {
   const { cartItems, addToCart } = useCart();

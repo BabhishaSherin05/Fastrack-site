@@ -4,7 +4,7 @@ import w22 from '../assets/pictures/Practice/2w2.webp'
 import w24 from '../assets/pictures/Practice/2w4.webp'
 import w25 from '../assets/pictures/Practice/2w5.webp'
 import Navbar from '../components/Navbar'
-import Location from '../components/location'
+import Location from '../components/Location'
 import {Link} from "react-router-dom"
 
 

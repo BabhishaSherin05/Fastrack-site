@@ -4,7 +4,7 @@ import viewed2 from '../assets/pictures/Practice/viewed2.webp'
 import viewed3 from '../assets/pictures/Practice/viewed3.webp'
 import viewed from '../assets/pictures/Practice/viewed.webp'
 import Navbar from '../components/Navbar'
-import Location from '../components/location'
+import Location from '../components/Location'
 import {Link} from "react-router-dom"
 const Street1 = () => {
   return (

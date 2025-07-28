@@ -4,7 +4,7 @@ import w2 from '../assets/pictures/Practice/w2.webp'
 import w3 from '../assets/pictures/Practice/w3.webp'
 import w4 from '../assets/pictures/Practice/w4.webp'
 import Navbar from '../components/Navbar'
-import Location from '../components/location'
+import Location from '../components/Location'
 import {Link} from "react-router-dom"
 
 const SmartWatches1 = () => {

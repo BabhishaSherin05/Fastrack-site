@@ -1,7 +1,7 @@
 import React from 'react';
 import { useCart } from './CartContext';
 import Navbar1 from '../components/Navbar1'
-import Location from '../components/location'
+import Location from '../components/Location'
 
 import { useNavigate } from 'react-router-dom';
 

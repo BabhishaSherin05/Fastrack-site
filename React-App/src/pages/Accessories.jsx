@@ -12,7 +12,7 @@ import Acc10 from '../assets/pictures/Practice/acc10.webp'
 import Acc11 from '../assets/pictures/Practice/acc11.webp'
 import Acc12 from '../assets/pictures/Practice/acc12.webp'
 import Navbar from '../components/Navbar'
-import Location from '../components/location'
+import Location from '../components/Location'
 import {Link} from "react-router-dom"
 
 const Accessories = () => {

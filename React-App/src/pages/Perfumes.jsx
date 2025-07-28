@@ -3,7 +3,7 @@ import Acc7 from '../assets/pictures/Practice/Acc7.webp'
 import Acc8 from '../assets/pictures/Practice/Acc8.webp'
 import Acc9 from '../assets/pictures/Practice/Acc9.webp'
 import Navbar from '../components/Navbar'
-import Location from '../components/location'
+import Location from '../components/Location'
 import {Link} from "react-router-dom"
 
 const Bags1 = () => {

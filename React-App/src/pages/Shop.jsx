@@ -4,7 +4,7 @@ import tre2 from '../assets/pictures/Practice/tre2.webp'
 import tre3 from '../assets/pictures/Practice/tre3.webp'
 import tre4 from '../assets/pictures/Practice/tre4.webp'
 import Navbar from '../components/Navbar'
-import Location from '../components/location'
+import Location from '../components/Location'
 import { Link } from 'react-router-dom'
 
 const Shop = () => {
