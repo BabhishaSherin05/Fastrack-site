@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Carousel from '../components/carousel'
+import Carousel from '../components/Carousel'
 import Location from '../components/location'
 import Images from '../components/images'
 import Banner from '../components/Banner'
@@ -16,6 +16,7 @@ const Home = () => {
         <Carousel/>
         <Images/>
         <Banner/>
+        
         <Cards2/>
         <Vibe/>
         <Footer/>
