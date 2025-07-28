@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Location from '../components/location'
+import Location from '../components/Location'
 import {Link} from "react-router-dom"
 
 const More = () => {
