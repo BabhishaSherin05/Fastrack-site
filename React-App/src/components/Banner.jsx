@@ -1,7 +1,7 @@
 import React from 'react'
-import Ban1 from '../assets/pictures/practice/ban1.webp'
-import Ban2 from '../assets/pictures/practice/ban2.webp'
-import Ban3 from '../assets/pictures/practice/ban3.webp'
+import Ban1 from '../assets/pictures/Practice/ban1.webp'
+import Ban2 from '../assets/pictures/Practice/ban2.webp'
+import Ban3 from '../assets/pictures/Practice/ban3.webp'
 
 const Banner = () => {
   return (
