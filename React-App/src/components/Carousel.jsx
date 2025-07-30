@@ -1,12 +1,12 @@
 import React from 'react'
-import Sale1 from '../assets/pictures/practice/sale1.webp'
-import Sale2 from '../assets/pictures/practice/sale2.jpeg'
-import Sale3 from '../assets/pictures/practice/sale3.webp'
-import Sale4 from '../assets/pictures/practice/sale4.jpg'
-import Sale5 from '../assets/pictures/practice/sale5.jpg'
-import Sale6 from '../assets/pictures/practice/sale6.webp'
-import Sale7 from '../assets/pictures/practice/sale7.jpg'
-import Sale8 from '../assets/pictures/practice/sale8.jpg'
+import Sale1 from '../assets/pictures/Practice/sale1.webp'
+import Sale2 from '../assets/pictures/Practice/sale2.jpeg'
+import Sale3 from '../assets/pictures/Practice/sale3.webp'
+import Sale4 from '../assets/pictures/Practice/sale4.jpg'
+import Sale5 from '../assets/pictures/Practice/sale5.jpg'
+import Sale6 from '../assets/pictures/Practice/sale6.webp'
+import Sale7 from '../assets/pictures/Practice/sale7.jpg'
+import Sale8 from '../assets/pictures/Practice/sale8.jpg'
 
 const carousel = () => {
   return (
