@@ -1,6 +1,6 @@
 import React from 'react'
-import App1 from '../assets/Pictures/Practice/app1.jpg' 
-import App2 from '../assets/Pictures/Practice/app2.jpg'
+import App1 from '../assets/pictures/Practice/app1.jpg' 
+import App2 from '../assets/pictures/Practice/app2.jpg'
 import Logo from '../assets/pictures/Practice/fastracklogo.png'
 
 const Footer = () => {
