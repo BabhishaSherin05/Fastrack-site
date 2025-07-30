@@ -2,7 +2,7 @@ import React from 'react'
 import Analog from '../assets/pictures/Practice/analog.webp'
 import Smart from '../assets/pictures/Practice/smart.webp'
 import Bags from '../assets/pictures/Practice/bags.jpg'
-import Perfumes from '../assets/pictures/Practice/perfumes.webp'
+import Perfumes from '../assets/pictures/Practice/Perfumes.webp'
 import { Link } from 'react-router-dom'
 
 const images = () => {
